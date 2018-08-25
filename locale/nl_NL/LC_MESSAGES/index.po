@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bijbrengen\n"
+"Report-Msgid-Bugs-To: slagter@bijbrengen.nl \n"
+"Last-Translator: Rob Slagter <slagter@bijbrengen.nl>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "21st century skills"
+msgstr "21st century skills"
+
+msgid "and"
+msgstr "en"
+
+msgid "Close map"
+msgstr "Sluit map"
+
+msgid "Codeniacs description"
+msgstr "Codeniacs is opgezet met pilotscholen door deskundigen in ondernemend leren en ICT. Deze inspanning is mogeljk gemaakt door onze sponsors."
+
+msgid "Entrepreneurial behavior"
+msgstr "Ondernemend gedrag"
+
+msgid "Entrepreneurial learning by ICT"
+msgstr "Ondernemend leren door ICT"
+
+msgid "Events"
+msgstr "Evenementen"
+
+msgid "Fun-raising and stress-reducing"
+msgstr "Lustverhogend en lastverlagend"
+
+msgid "Hack Education"
+msgstr "Hack het Onderwijs"
+
+msgid "How"
+msgstr "Hoe"
+
+msgid "Learn more"
+msgstr "Meer weten"
+
+msgid "Meaningful events"
+msgstr "Betekenisvolle evenementen"
+
+msgid "Modern Techniques"
+msgstr "Moderne Technieken"
+
+msgid "Online 24/7 support"
+msgstr "Online 24/7 ondersteuning"
+
+msgid "Open map"
+msgstr "Open kaart"
+
+msgid "Our partners"
+msgstr "Onze partners"
+
+msgid "Our promise to education is"
+msgstr "Onze belofte aan het onderwijs is"
+
+msgid "Setup Codeniacs"
+msgstr "Codeniacs is zo opgezet dat docenten en scholen worden ontlast qua programma, middelen en inzet. Via een online leeromgeving, onderwijsadviseurs, gastdocenten en evenementen wordt alle deskundigheid GRATIS geleverd. De school gaat wel een commitment aan. Op deze wijze kan een school eenvoudig en duurzaam ondernemend leren door ICT in- en uitvoeren."
+
+msgid "Sign up"
+msgstr "Schrijf u in"
+
+msgid "together form a unique crazy quilt"
+msgstr "vormen samen een unieke lappendeken"
+
+msgid "We work with"
+msgstr "We werken met"
+
+msgid "What"
+msgstr "Wat"
+
+msgid "Why"
+msgstr "Waarom"
+
+msgid "Who"
+msgstr "Wie"
+
+msgid "Young ICT entrepreneurs"
+msgstr "Jonge ICT ondernemers"
