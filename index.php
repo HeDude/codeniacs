@@ -239,7 +239,7 @@ textdomain( $domain );
                     </div>
                     <div class="col-md-4 col-sm-6 item ">
                         <div>
-                            <i class="mdi mdi-security codeniacs_icon fsr">&nbsp;Cybersecurity</i>
+                            <i class="mdi mdi-brush codeniacs_icon fsr">&nbsp;Graphic Design</i>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 item ">
@@ -249,7 +249,7 @@ textdomain( $domain );
                     </div>
                     <div class="col-md-4 col-sm-6 item ">
                         <div>
-                            <i class="mdi mdi-brush codeniacs_icon fsr">&nbsp;Graphic Design</i>
+                            <i class="mdi mdi-security codeniacs_icon fsr">&nbsp;Cybersecurity</i>
                         </div>
                     </div>
                 </div>
