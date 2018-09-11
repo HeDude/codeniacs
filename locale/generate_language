@@ -1,0 +1,4 @@
+msgfmt --output-file=en_GB/LC_MESSAGES/index.mo en_GB/LC_MESSAGES/index.po
+msgfmt --output-file=es_ES/LC_MESSAGES/index.mo es_ES/LC_MESSAGES/index.po
+msgfmt --output-file=nl_NL/LC_MESSAGES/index.mo nl_NL/LC_MESSAGES/index.po
+

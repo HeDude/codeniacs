@@ -61,7 +61,7 @@ msgid "Our promise to education is"
 msgstr "Onze belofte aan het onderwijs is"
 
 msgid "Setup Codeniacs"
-msgstr "Codeniacs is zo opgezet dat docenten en scholen worden ontlast qua programma, middelen en inzet. Via een online leeromgeving, onderwijsadviseurs, gastdocenten en evenementen wordt alle deskundigheid GRATIS geleverd. De school gaat wel een commitment aan. Op deze wijze kan een school eenvoudig en duurzaam ondernemend leren door ICT in- en uitvoeren."
+msgstr "Codeniacs is zo opgezet dat docenten en scholen worden ontlast qua programma en inzet. Via een online leeromgeving, onderwijsadviseurs, gastdocenten en evenementen wordt alle deskundigheid GRATIS geleverd. De school gaat wel een commitment aan en zorgt voor de juiste middelen. Op deze wijze kan een school eenvoudig en duurzaam ondernemend leren door ICT in- en uitvoeren."
 
 msgid "Sign up"
 msgstr "Schrijf u in"
