@@ -55,7 +55,7 @@ textdomain( $domain );
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="homepage.html"><img class="logo_codeniacs" src="images/logo.svg"></a>
+                        <a class="navbar-brand" href="#"><img class="logo_codeniacs" src="images/logo.svg"></a>
                     </div>
 
                     <div class="codeniacs_menuItem pull-right">
