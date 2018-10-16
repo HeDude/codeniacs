@@ -34,7 +34,7 @@ a
 {
 	text-decoration: none;
 	outline: none;
-	color: #2ec06c;
+	color: #FB65F9;
 	-webkit-transition: all .3s ease-in-out;
 	   -moz-transition: all .3s ease-in-out;
 		 -o-transition: all .3s ease-in-out;
@@ -203,7 +203,7 @@ img.img-full-width
 }
 .codeniacs_hoverEffect .item
 {
-	background: #95e1d3;
+	background: #20A4E5;
 	display: inline-block;
 }
 .codeniacs_hoverEffect .item .overlay
@@ -351,7 +351,7 @@ img.img-full-width
 	top: -2px;
 	width: 60px;
 	height: 2px;
-	background: #f38181;
+	background: #FB65F9;
 }
 #codeniacs_slider .carousel-indicators li .number
 {
@@ -498,7 +498,7 @@ section
 	bottom: 0;
 	width: 50px;
 	height: 2px;
-	background: #f38181;
+	background: #FB65F9;
 	transform: translateX(-50%);
 }
 .codeniacs_sectionHeading .codeniacs_subHeading
@@ -533,7 +533,7 @@ section
 {
 	font-size: 30px;
 	margin-right: 20px;
-	color: #95e1d3;
+	color: #20A4E5;
 }
 #codeniacs_how .item:not(:nth-last-child(-n+3))
 {
@@ -644,7 +644,7 @@ section
 }
 #codeniacs_contact .codeniacs_sectionHeading
 {
-	color: #f28989;
+	color: #FB65F9;
 	margin: 0;
 	cursor: pointer;
 }
@@ -732,7 +732,7 @@ footer .codeniacs_followUs .socialNetwork .codeniacs_icon
 	display: inline-block;
 	margin: 0 3px;
 	font-size: 18px;
-	color: #95e1d3;
+	color: #20A4E5;
 }
 footer .codeniacs_icon img
 {
@@ -756,7 +756,7 @@ footer .codeniacs_subscribeForm .input-group .btn
 	font-weight: 700;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
-	background: #95e1d3;
+	background: #20A4E5;
 	border: none;
 }
 
@@ -1067,6 +1067,6 @@ div.pp_default .pp_social
 	}
 	#codeniacs_slider .carousel-indicators li.active .inner
 	{
-		border-color: #f38181;
+		border-color: #FB65F9;
 	}
 }
