@@ -1,0 +1,31 @@
+<?php
+$msg = array
+(
+    "21st century skills" => "21st century skills",
+    "and" => "and",
+    "Close map" => "Close map",
+    "Codeniacs description" => "Codeniacs has been set up with pilot schools by experts in entrepreneurial learning and ICT. This effort was made possible by our sponsors.",
+    "Entrepreneurial behavior" => "Entrepreneurial behavior",
+    "Entrepreneurial learning by ICT" => "Entrepreneurial learning by ICT",
+    "Events" => "Events",
+    "Experts in the school" => "Experts in the school",
+    "Fun-raising and stress-reducing" => "Fun-raising and stress-reducing",
+    "Hack Education" => "Hack Education",
+    "How" => "How",
+    "Learn more" => "Learn more",
+    "Meaningful events" => "Meaningful events",
+    "Modern Techniques" => "Modern Techniques",
+    "Online 24/7 support" => "Online 24/7 support",
+    "Open map" => "Open map",
+    "Our partners" => "Our partners",
+    "Our promise to education is" => "Our promise to education is",
+    "Programming" => "The courses deepen ICT disciplines that are important now and in the future. In each displine pupils go to work with challenges that appeal to them. Doing so, the students program their solutions in Scratch, Blockly, Wikitext, HTML, CSS, Javascript and eventually even in Python. Open source software such as Git, ATOM, Blender, GIMP and Inkscape is used.",
+    "Setup Codeniacs" => "Codeniacs is designed in such a way that teachers and schools are relieved in terms of program and commitment. Through an online learning environment, educational advisers, guest lecturers and events, all expertise is delivered for FREE. The school does make a commitment though and delivers the right means. In this way, a school can learn and execute in a simple and sustainable manner entrepreneurial learning through ICT.",
+    "Sign up" => "Sign up",
+    "together form a unique crazy quilt" => "together form a unique crazy quilt",
+    "We work with" => "We work with",
+    "What" => "What",
+    "Why" => "Why",
+    "Who" => "Who",
+    "Young ICT entrepreneurs" => "Young ICT entrepreneurs"
+);

@@ -1,0 +1,30 @@
+<?php
+$msg = array
+(
+    "21st century skills" => "21st century skills",
+    "and" => "en",
+    "Close map" => "Sluit map",
+    "Codeniacs description" => "Codeniacs is opgezet met pilotscholen door deskundigen in ondernemend leren en ICT. Deze inspanning is mogeljk gemaakt door onze sponsors.",
+    "Entrepreneurial behavior" => "Ondernemend gedrag",
+    "Entrepreneurial learning by ICT" => "Ondernemend leren door ICT",
+    "Events" => "Evenementen",
+    "Fun-raising and stress-reducing" => "Lustverhogend en lastverlagend",
+    "Hack Education" => "Hack het Onderwijs",
+    "How" => "Hoe",
+    "Learn more" => "Meer weten",
+    "Meaningful events" => "Betekenisvolle evenementen",
+    "Modern Techniques" => "Moderne Technieken",
+    "Online 24/7 support" => "Online 24/7 ondersteuning",
+    "Open map" => "Open kaart",
+    "Our partners" => "Onze partners",
+    "Our promise to education is" => "Onze belofte aan het onderwijs is",
+    "Programming" => "De cursussen verdiepen ICT disciplines die nu en in de toekomst belangrijk zijn. Leerlingen gaan binnen zo'n discipline aan de slag met uitdagingen die hen aanspreken. Aldoende programmeren de leerlingen hun oplossingen in Scratch, Blockly, Wikitext, HTML, CSS, Javascript en uiteindelijk zelfs in Python. Open source software als Git, ATOM, Blender, GIMP en Inkscape wordt ingezet.",
+    "Setup Codeniacs" => "Codeniacs is zo opgezet dat docenten en scholen worden ontlast qua programma en inzet. Via een online leeromgeving, onderwijsadviseurs, gastdocenten en evenementen wordt alle deskundigheid GRATIS geleverd. De school gaat wel een commitment aan en zorgt voor de juiste middelen. Op deze wijze kan een school eenvoudig en duurzaam ondernemend leren door ICT in- en uitvoeren.",
+    "Sign up" => "Schrijf u in",
+    "together form a unique crazy quilt" => "vormen samen een unieke lappendeken",
+    "We work with" => "We werken met",
+    "What" => "Wat",
+    "Why" => "Waarom",
+    "Who" => "Wie",
+    "Young ICT entrepreneurs" => "Jonge ICT ondernemers"
+);

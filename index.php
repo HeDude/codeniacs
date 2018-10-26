@@ -16,10 +16,15 @@ if ( isset( $_GET["lang"] ) )
 putenv( "LANG=" . $locale );
 setlocale( LC_ALL, $locale );
 putenv( "LANGUAGE=" . $locale );
-$domain = "index";
-bindtextdomain( $domain, __DIR__ . "/locale" );
-bind_textdomain_codeset( $domain, 'UTF-8' );
-textdomain( $domain );
+if ( !file_exists( "locale/" . $locale . "/index.php" ) )
+{
+    exit;
+}
+include "locale/" . $locale . "/index.php";
+//$domain = "index";
+//bindtextdomain( $domain, __DIR__ . "/locale" );
+//bind_textdomain_codeset( $domain, 'UTF-8' );
+//textdomain( $domain );
 ?>
 <!DOCTYPE html>
 <html lang="nl">
@@ -62,10 +67,10 @@ textdomain( $domain );
                         <div class="collapse navbar-collapse pull-left" id="codeniacs_navbar-collapse">
                             <ul class="nav navbar-nav">
                                 <li class="active"><a href="#codeniacs_header">Home <span class="sr-only">(current)</span></a></li>
-                                <li><a href="#codeniacs_what"><?php echo _("What");?>?</a></li>
-                                <li><a href="#codeniacs_why"><?php echo _("Why");?>?</a></li>
-                                <li><a href="#codeniacs_how"><?php echo _("How");?>?</a></li>
-                                <li><a href="#codeniacs_who"><?php echo _("Who");?>?</a></li>
+                                <li><a href="#codeniacs_what"><?php echo $msg[ "What" ];?>?</a></li>
+                                <li><a href="#codeniacs_why"><?php echo $msg[ "Why" ];?>?</a></li>
+                                <li><a href="#codeniacs_how"><?php echo $msg[ "How" ];?>?</a></li>
+                                <li><a href="#codeniacs_who"><?php echo $msg[ "Who" ];?>?</a></li>
                                 <li><a href="#codeniacs_contact"><i class="mdi mdi-contact-mail codeniacs_icon"></i></a></li>
                                 <li><a href="/elo"><i class="mdi mdi-tablet-cellphone codeniacs_icon"></i></a></li>
                             </ul>
@@ -86,49 +91,49 @@ textdomain( $domain );
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
                         <h2 class="codeniacs_sectionHeading">
-                            <?php echo _("Entrepreneurial learning by ICT");?>
+                            <?php echo $msg[ "Entrepreneurial learning by ICT" ];?>
                         </h2>
-                        <a href="/wiki" class="codeniacs_btn"><?php echo _("Learn more");?>?</a>
+                        <a href="/wiki" class="codeniacs_btn"><?php echo $msg[ "Learn more" ];?>?</a>
                     </div>
                     <div class="item">
                         <h2 class="codeniacs_sectionHeading">
-                            <?php echo _("21st century skills");?>
+                            <?php echo $msg[ "21st century skills" ];?>
                         </h2>
-                        <a href="/wiki" class="codeniacs_btn"><?php echo _("Learn more");?>?</a>
+                        <a href="/wiki" class="codeniacs_btn"><?php echo $msg[ "Learn more" ];?>?</a>
                     </div>
                     <div class="item">
                         <h2 class="codeniacs_sectionHeading">
-                            <?php echo _("Hack Education");?>
+                            <?php echo $msg[ "Hack Education" ];?>
                         </h2>
-                        <a href="/wiki" class="codeniacs_btn"><?php echo _("Learn more");?>?</a>
+                        <a href="/wiki" class="codeniacs_btn"><?php echo $msg[ "Learn more" ];?>?</a>
                     </div>
                     <div class="item">
                         <h2 class="codeniacs_sectionHeading">
-                            <?php echo _("Young ICT entrepreneurs");?>
+                            <?php echo $msg[ "Young ICT entrepreneurs" ];?>
                         </h2>
-                        <a href="/wiki" class="codeniacs_btn"><?php echo _("Learn more");?>?</a>
+                        <a href="/wiki" class="codeniacs_btn"><?php echo $msg[ "Learn more" ];?>?</a>
                     </div>
                 </div>
 
                 <ol class="carousel-indicators clearfix">
                     <li data-target="#codeniacs_slider" data-slide-to="0" class="active">
                         <div class="inner">
-                            <span class="number">01</span> <?php echo _("What");?>?
+                            <span class="number">01</span> <?php echo $msg[ "What" ];?>?
                         </div>
                     </li>
                     <li data-target="#codeniacs_slider" data-slide-to="1">
                         <div class="inner">
-                            <span class="number">02</span> <?php echo _("Why");?>?
+                            <span class="number">02</span> <?php echo $msg[ "Why" ];?>?
                         </div>
                     </li>
                     <li data-target="#codeniacs_slider" data-slide-to="2">
                         <div class="inner">
-                            <span class="number">03</span> <?php echo _("How");?>?
+                            <span class="number">03</span> <?php echo $msg[ "How" ];?>?
                         </div>
                     </li>
                     <li data-target="#codeniacs_slider" data-slide-to="3">
                         <div class="inner">
-                            <span class="number">04</span> <?php echo _("Who");?>?
+                            <span class="number">04</span> <?php echo $msg[ "Who" ];?>?
                         </div>
                     </li>
                 </ol>
@@ -139,10 +144,10 @@ textdomain( $domain );
     <section id="codeniacs_what">
         <div class="container">
             <h2 class="codeniacs_sectionHeading">
-                <span class="codeniacs_subHeading"><?php echo _("Our promise to education is");?></span>
-                <?php echo _("Fun-raising and stress-reducing");?>
+                <span class="codeniacs_subHeading"><?php echo $msg[ "Our promise to education is" ];?></span>
+                <?php echo $msg[ "Fun-raising and stress-reducing" ];?>
             </h2>
-            <p class="codeniacs_sectionDesc"><?php echo _("Setup Codeniacs");?>
+            <p class="codeniacs_sectionDesc"><?php echo $msg[ "Setup Codeniacs" ];?>
             </p>
             <div class="sectionContent">
                 <div class="row codeniacs_hoverEffect">
@@ -151,9 +156,9 @@ textdomain( $domain );
                             <a class="overlay" href="http://www.incubatorsfoundation.com">
                                 <span class="content">
                                     <i class="mdi mdi-school codeniacs_icon"></i>
-                                    <?php echo _("Experts in the school");?>
+                                    <?php echo $msg[ "Experts in the school" ];?>
                                 </span>
-                                <img src="images/what/img-1.jpg" alt="<?php echo _("Experts in the school");?>">
+                                <img src="images/what/img-1.jpg" alt="<?php echo $msg[ "Experts in the school" ];?>">
                             </a>
                         </div>
                     </div>
@@ -162,9 +167,9 @@ textdomain( $domain );
                             <a class="overlay" href="https://elo.codeniacs.nl">
                                 <span class="content">
                                     <i class="mdi mdi-tablet-cellphone codeniacs_icon"></i>
-                                    <?php echo _("Online 24/7 support");?>
+                                    <?php echo $msg[ "Online 24/7 support" ];?>
                                 </span>
-                                <img src="images/what/img-2.jpg" alt="<?php echo _("Online 24/7 support");?>">
+                                <img src="images/what/img-2.jpg" alt="<?php echo $msg[ "Online 24/7 support" ];?>">
                             </a>
                         </div>
                     </div>
@@ -173,9 +178,9 @@ textdomain( $domain );
                             <a class="overlay" href="https://wiki.codeniacs.nl">
                                 <span class="content">
                                     <i class="mdi mdi-summit codeniacs_icon"></i>
-                                    <?php echo _("Events");?>
+                                    <?php echo $msg[ "Events" ];?>
                                 </span>
-                                <img src="images/what/img-3.jpg" alt="<?php echo _("Events");?>">
+                                <img src="images/what/img-3.jpg" alt="<?php echo $msg[ "Events" ];?>">
                             </a>
                         </div>
                     </div>
@@ -187,8 +192,8 @@ textdomain( $domain );
     <section id="codeniacs_why">
         <div class="container">
             <h2 class="codeniacs_sectionHeading">
-                <span class="codeniacs_subHeading"><?php echo _("Entrepreneurial behavior");?></span>
-                <?php echo _("21st century skills");?>
+                <span class="codeniacs_subHeading"><?php echo $msg[ "Entrepreneurial behavior" ];?></span>
+                <?php echo $msg[ "21st century skills" ];?>
             </h2>
             <div class="sectionContent">
                 <div class="codeniacs_devices">
@@ -202,9 +207,11 @@ textdomain( $domain );
     <section id="codeniacs_how">
         <div class="container">
             <h2 class="codeniacs_sectionHeading">
-                <span class="codeniacs_subHeading"><?php echo _("We work with");?></span>
-                <?php echo _("Modern Techniques");?>
+                <span class="codeniacs_subHeading"><?php echo $msg[ "We work with" ];?></span>
+                <?php echo $msg[ "Modern Techniques" ];?>
             </h2>
+            <p class="codeniacs_sectionDesc"><?php echo $msg[ "Programming" ];?>
+            </p>
             <div class="sectionContent">
                 <div class="fw">
                     <div class="col-md-4 col-sm-6 item ">
@@ -256,8 +263,8 @@ textdomain( $domain );
             </div>
             <h2 class="codeniacs_sectionHeading">
                 <span class="codeniacs_subHeading">&nbsp;</span>
-                <span class="codeniacs_subHeading"><?php echo _("and");?></span>
-                <?php echo _("Meaningful events");?>
+                <span class="codeniacs_subHeading"><?php echo $msg[ "and" ];?></span>
+                <?php echo $msg[ "Meaningful events" ];?>
             </h2>
             <div class="sectionContent">
                 <div class="fw">
@@ -284,11 +291,11 @@ textdomain( $domain );
     <section id="codeniacs_who">
         <div class="container">
             <h2 class="codeniacs_sectionHeading">
-                <span class="codeniacs_subHeading"><?php echo _("Our partners");?></span>
-                <?php echo _("together form a unique crazy quilt");?>
+                <span class="codeniacs_subHeading"><?php echo $msg[ "Our partners" ];?></span>
+                <?php echo $msg[ "together form a unique crazy quilt" ];?>
             </h2>
             <p class="codeniacs_sectionDesc">
-                <?php echo _("Codeniacs description");?>
+                <?php echo $msg[ "Codeniacs description" ];?>
             </p>
         </div>
         <div class="sectionContent">
@@ -361,8 +368,8 @@ textdomain( $domain );
         <div class="container">
             <h2 class="codeniacs_sectionHeading">
                 <i class="mdi mdi-map-marker codeniacs_icon"></i>
-                <span class="text"><?php echo _("Open map");?></span>
-                <span class="text" style="display: none;"><?php echo _("Close map");?></span>
+                <span class="text"><?php echo $msg[ "Open map" ];?></span>
+                <span class="text" style="display: none;"><?php echo $msg[ "Close map" ];?></span>
             </h2>
             <div class="mapWrap">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2388.869835152895!2d6.520985315833677!3d53.2201821799528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c9cd29ab9fcd2d%3A0x2d90f9c4c615e72c!2sOnyxstraat%2C+Groningen!5e0!3m2!1snl!2snl!4v1531821195965" width="800" height="600" style="border:0" allowfullscreen></iframe>
@@ -394,7 +401,7 @@ textdomain( $domain );
                             <div class="input-group input-group-lg">
                                 <input type="email" class="form-control" placeholder="Email" required>
                                 <span class="input-group-btn">
-                                    <button class="btn btn-success" type="submit"><?php echo _("Sign up");?>!</button>
+                                    <button class="btn btn-success" type="submit"><?php echo $msg[ "Sign up" ];?>!</button>
                                 </span>
                             </div>
                         </form>
