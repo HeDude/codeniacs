@@ -23,6 +23,7 @@ $msg = array
     "Setup Codeniacs" => "Codeniacs está diseñado de tal manera que los maestros y las escuelas se sienten aliviados en términos de programa, recursos y compromiso. A través de un entorno de aprendizaje en línea, asesores educativos, conferenciantes invitados y eventos, todos los conocimientos se entregan de forma GRATUITA. Sin embargo, la escuela sí hace un compromiso. De esta manera, una escuela puede aprender y ejecutar de manera simple y sostenible el aprendizaje empresarial a través de las TIC.",
     "Sign up" => "Registrarse",
     "together form a unique crazy quilt" => "juntos forman un mosaico único",
+    "URL_wiki" => "https://wiki.codeniacs.eu",
     "We work with" => "Trabajamos con",
     "What" => "Qué",
     "Why" => "Por qué",

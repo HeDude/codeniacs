@@ -72,7 +72,6 @@ include "locale/" . $locale . "/index.php";
                                 <li><a href="#codeniacs_how"><?php echo $msg[ "How" ];?>?</a></li>
                                 <li><a href="#codeniacs_who"><?php echo $msg[ "Who" ];?>?</a></li>
                                 <li><a href="#codeniacs_contact"><i class="mdi mdi-contact-mail codeniacs_icon"></i></a></li>
-                                <li><a href="/elo"><i class="mdi mdi-tablet-cellphone codeniacs_icon"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -93,25 +92,25 @@ include "locale/" . $locale . "/index.php";
                         <h2 class="codeniacs_sectionHeading">
                             <?php echo $msg[ "Entrepreneurial learning by ICT" ];?>
                         </h2>
-                        <a href="/wiki" class="codeniacs_btn"><?php echo $msg[ "Learn more" ];?>?</a>
+                        <a href="<?php echo $msg[ "URL_wiki" ];?>" class="codeniacs_btn"><?php echo $msg[ "Learn more" ];?>?</a>
                     </div>
                     <div class="item">
                         <h2 class="codeniacs_sectionHeading">
                             <?php echo $msg[ "21st century skills" ];?>
                         </h2>
-                        <a href="/wiki" class="codeniacs_btn"><?php echo $msg[ "Learn more" ];?>?</a>
+                        <a href="<?php echo $msg[ "URL_wiki" ];?>" class="codeniacs_btn"><?php echo $msg[ "Learn more" ];?>?</a>
                     </div>
                     <div class="item">
                         <h2 class="codeniacs_sectionHeading">
                             <?php echo $msg[ "Hack Education" ];?>
                         </h2>
-                        <a href="/wiki" class="codeniacs_btn"><?php echo $msg[ "Learn more" ];?>?</a>
+                        <a href="<?php echo $msg[ "URL_wiki" ];?>" class="codeniacs_btn"><?php echo $msg[ "Learn more" ];?>?</a>
                     </div>
                     <div class="item">
                         <h2 class="codeniacs_sectionHeading">
                             <?php echo $msg[ "Young ICT entrepreneurs" ];?>
                         </h2>
-                        <a href="/wiki" class="codeniacs_btn"><?php echo $msg[ "Learn more" ];?>?</a>
+                        <a href="<?php echo $msg[ "URL_wiki" ];?>" class="codeniacs_btn"><?php echo $msg[ "Learn more" ];?>?</a>
                     </div>
                 </div>
 
@@ -175,7 +174,7 @@ include "locale/" . $locale . "/index.php";
                     </div>
                     <div class="col-md-4 col-sm-4">
                         <div class="item">
-                            <a class="overlay" href="https://wiki.codeniacs.nl">
+                            <a class="overlay" href="<?php echo $msg[ "URL_wiki" ];?>">
                                 <span class="content">
                                     <i class="mdi mdi-summit codeniacs_icon"></i>
                                     <?php echo $msg[ "Events" ];?>
