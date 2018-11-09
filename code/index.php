@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <meta name="google" value="notranslate">
   <title>Codeniacs</title>
+  <link rel="shortcut icon" href="images/favicon.ico">
+
   <link rel="stylesheet" href="css/style.css">
   <script src="blockly/appengine/storage.js"></script>
   <script src="blockly/blockly_compressed.js"></script>
@@ -19,7 +21,7 @@
   <table width="100%" height="100%">
     <tr>
       <td>
-        <h1><a href="https://developers.google.com/blockly/">Blockly</a>&rlm; &gt;
+        <h1><a href="https://www.codeniacs.nl"><img class="logo_codeniacs" src="https://www.codeniacs.nl/images/logo.png"></a></a>&rlm; &gt;
           <span id="title">...</span>
         </h1>
       </td>
