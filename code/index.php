@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="google" value="notranslate">
-  <title>Blockly Demo:</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Codeniacs</title>
+  <link rel="stylesheet" href="css/style.css">
   <script src="blockly/appengine/storage.js"></script>
   <script src="blockly/blockly_compressed.js"></script>
   <script src="blockly/blocks_compressed.js"></script>
@@ -20,7 +20,6 @@
     <tr>
       <td>
         <h1><a href="https://developers.google.com/blockly/">Blockly</a>&rlm; &gt;
-          <a href="../index.html">Demos</a>&rlm; &gt;
           <span id="title">...</span>
         </h1>
       </td>
