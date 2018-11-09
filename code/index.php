@@ -13,7 +13,7 @@
   <script src="blockly/php_compressed.js"></script>
   <script src="blockly/lua_compressed.js"></script>
   <script src="blockly/dart_compressed.js"></script>
-  <script src="javascript/code.js"></script>
+  <script src="code.js"></script>
 </head>
 <body>
   <table width="100%" height="100%">
