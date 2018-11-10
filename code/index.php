@@ -50,8 +50,8 @@
               <button id="trashButton" class="notext" title="...">
                 <img src='blockly/media/1x1.gif' class="trash icon21">
               </button>
-              <button id="linkButton" class="notext" title="...">
-                <img src='blockly/media/1x1.gif' class="link icon21">
+              <button class="notext" title="...">
+                <a href="https://repl.it" target="_blank"><img src='images/save.svg' class="icon21"></a>
               </button>
               <button id="runButton" class="notext primary" title="...">
                 <img src='blockly/media/1x1.gif' class="run icon21">

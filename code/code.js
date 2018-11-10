@@ -31,57 +31,58 @@ var Code = {};
 /**
  * Lookup for names of supported languages.  Keys should be in ISO 639 format.
  */
-Code.LANGUAGE_NAME = {
-  'ar': 'العربية',
-  'be-tarask': 'Taraškievica',
-  'br': 'Brezhoneg',
-  'ca': 'Català',
-  'cs': 'Česky',
-  'da': 'Dansk',
-  'de': 'Deutsch',
-  'el': 'Ελληνικά',
-  'en': 'English',
-  'es': 'Español',
-  'et': 'Eesti',
-  'fa': 'فارسی',
-  'fr': 'Français',
-  'he': 'עברית',
-  'hrx': 'Hunsrik',
-  'hu': 'Magyar',
-  'ia': 'Interlingua',
-  'is': 'Íslenska',
-  'it': 'Italiano',
-  'ja': '日本語',
-  'kab': 'Kabyle',
-  'ko': '한국어',
-  'mk': 'Македонски',
-  'ms': 'Bahasa Melayu',
-  'nb': 'Norsk Bokmål',
-  'nl': 'Nederlands, Vlaams',
-  'oc': 'Lenga d\'òc',
-  'pl': 'Polski',
-  'pms': 'Piemontèis',
-  'pt-br': 'Português Brasileiro',
-  'ro': 'Română',
-  'ru': 'Русский',
-  'sc': 'Sardu',
-  'sk': 'Slovenčina',
-  'sr': 'Српски',
-  'sv': 'Svenska',
-  'ta': 'தமிழ்',
-  'th': 'ภาษาไทย',
-  'tlh': 'tlhIngan Hol',
-  'tr': 'Türkçe',
-  'uk': 'Українська',
-  'vi': 'Tiếng Việt',
-  'zh-hans': '简体中文',
-  'zh-hant': '正體中文'
+Code.LANGUAGE_NAME =
+{
+    'ar': 'العربية',
+    'be-tarask': 'Taraškievica',
+    'br': 'Brezhoneg',
+    'ca': 'Català',
+    'cs': 'Česky',
+    'da': 'Dansk',
+    'de': 'Deutsch',
+    'el': 'Ελληνικά',
+    'en': 'English',
+    'es': 'Español',
+    'et': 'Eesti',
+    'fa': 'فارسی',
+    'fr': 'Français',
+    'he': 'עברית',
+    'hrx': 'Hunsrik',
+    'hu': 'Magyar',
+    'ia': 'Interlingua',
+    'is': 'Íslenska',
+    'it': 'Italiano',
+    'ja': '日本語',
+    'kab': 'Kabyle',
+    'ko': '한국어',
+    'mk': 'Македонски',
+    'ms': 'Bahasa Melayu',
+    'nb': 'Norsk Bokmål',
+    'nl': 'Nederlands, Vlaams',
+    'oc': 'Lenga d\'òc',
+    'pl': 'Polski',
+    'pms': 'Piemontèis',
+    'pt-br': 'Português Brasileiro',
+    'ro': 'Română',
+    'ru': 'Русский',
+    'sc': 'Sardu',
+    'sk': 'Slovenčina',
+    'sr': 'Српски',
+    'sv': 'Svenska',
+    'ta': 'தமிழ்',
+    'th': 'ภาษาไทย',
+    'tlh': 'tlhIngan Hol',
+    'tr': 'Türkçe',
+    'uk': 'Українська',
+    'vi': 'Tiếng Việt',
+    'zh-hans': '简体中文',
+    'zh-hant': '正體中文'
 };
 
 /**
  * List of RTL languages.
  */
-Code.LANGUAGE_RTL = ['ar', 'fa', 'he', 'lki'];
+Code.LANGUAGE_RTL = [ 'ar', 'fa', 'he', 'lki' ];
 
 /**
  * Blockly's main workspace.
@@ -96,37 +97,42 @@ Code.workspace = null;
  * @param {string} defaultValue Value to return if parameter not found.
  * @return {string} The parameter value or the default value if not found.
  */
-Code.getStringParamFromUrl = function(name, defaultValue) {
-  var val = location.search.match(new RegExp('[?&]' + name + '=([^&]+)'));
-  return val ? decodeURIComponent(val[1].replace(/\+/g, '%20')) : defaultValue;
+Code.getStringParamFromUrl = function( name, defaultValue )
+{
+    var val = location.search.match( new RegExp( '[?&]' + name + '=([^&]+)' ) );
+    return val ? decodeURIComponent( val[1].replace(/\+/g, '%20' ) ) : defaultValue;
 };
 
 /**
  * Get the language of this user from the URL.
  * @return {string} User's language.
  */
-Code.getLang = function() {
-  var lang = Code.getStringParamFromUrl('lang', '');
-  if (Code.LANGUAGE_NAME[lang] === undefined) {
-    // Default to English.
-    lang = 'en';
-  }
-  return lang;
+Code.getLang = function()
+{
+    var lang = Code.getStringParamFromUrl( 'lang', '' );
+    if ( Code.LANGUAGE_NAME[lang] === undefined )
+    {
+        // Default to English.
+        lang = 'en';
+    }
+    return lang;
 };
 
 /**
  * Is the current language (Code.LANG) an RTL language?
  * @return {boolean} True if RTL, false if LTR.
  */
-Code.isRtl = function() {
-  return Code.LANGUAGE_RTL.indexOf(Code.LANG) != -1;
+Code.isRtl = function()
+{
+    return Code.LANGUAGE_RTL.indexOf(Code.LANG) != -1;
 };
 
 /**
  * Load blocks saved on App Engine Storage or in session/local storage.
  * @param {string} defaultXml Text representation of default blocks.
  */
-Code.loadBlocks = function(defaultXml) {
+Code.loadBlocks = function( defaultXml )
+{
   try {
     var loadOnce = window.sessionStorage.loadOnceBlocks;
   } catch(e) {
@@ -441,18 +447,6 @@ Code.init = function() {
   Code.bindClick('trashButton',
       function() {Code.discard(); Code.renderContent();});
   Code.bindClick('runButton', Code.runJS);
-  // Disable the link button if page isn't backed by App Engine storage.
-  var linkButton = document.getElementById('linkButton');
-  if ('BlocklyStorage' in window) {
-    BlocklyStorage['HTTPREQUEST_ERROR'] = MSG['httpRequestError'];
-    BlocklyStorage['LINK_ALERT'] = MSG['linkAlert'];
-    BlocklyStorage['HASH_ERROR'] = MSG['hashError'];
-    BlocklyStorage['XML_ERROR'] = MSG['xmlError'];
-    Code.bindClick(linkButton,
-        function() {BlocklyStorage.link(Code.workspace);});
-  } else if (linkButton) {
-    linkButton.className = 'disabled';
-  }
 
   for (var i = 0; i < Code.TABS_.length; i++) {
     var name = Code.TABS_[i];
@@ -506,7 +500,6 @@ Code.initLanguage = function() {
   document.getElementById('title').textContent = MSG['title'];
   document.getElementById('tab_blocks').textContent = MSG['blocks'];
 
-  document.getElementById('linkButton').title = MSG['linkTooltip'];
   document.getElementById('runButton').title = MSG['runTooltip'];
   document.getElementById('trashButton').title = MSG['trashTooltip'];
 };
