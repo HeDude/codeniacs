@@ -16,15 +16,16 @@ if ( isset( $_GET["lang"] ) )
 putenv( "LANG=" . $locale );
 setlocale( LC_ALL, $locale );
 putenv( "LANGUAGE=" . $locale );
-if ( !file_exists( "locale/" . $locale . "/index.php" ) )
+if ( !file_exists( "locale/" . $locale . "/msg.php" ) )
 {
     exit;
 }
-include "locale/" . $locale . "/index.php";
-//$domain = "index";
-//bindtextdomain( $domain, __DIR__ . "/locale" );
-//bind_textdomain_codeset( $domain, 'UTF-8' );
-//textdomain( $domain );
+include "locale/" . $locale . "/msg.php";
+if ( !file_exists( "locale/" . $locale . "/link.php" ) )
+{
+    exit;
+}
+include "locale/" . $locale . "/link.php";
 ?>
 <!DOCTYPE html>
 <html lang="nl">
@@ -92,25 +93,25 @@ include "locale/" . $locale . "/index.php";
                         <h2 class="codeniacs_sectionHeading">
                             <?php echo $msg[ "Entrepreneurial learning by ICT" ];?>
                         </h2>
-                        <a href="<?php echo $msg[ "URL_wiki" ];?>" class="codeniacs_btn"><?php echo $msg[ "Learn more" ];?>?</a>
+                        <a href="<?php echo $link[ "URL_wiki" ];?>" class="codeniacs_btn"><?php echo $msg[ "Learn more" ];?>?</a>
                     </div>
                     <div class="item">
                         <h2 class="codeniacs_sectionHeading">
                             <?php echo $msg[ "21st century skills" ];?>
                         </h2>
-                        <a href="<?php echo $msg[ "URL_wiki" ];?>" class="codeniacs_btn"><?php echo $msg[ "Learn more" ];?>?</a>
+                        <a href="<?php echo $link[ "URL_wiki" ];?>" class="codeniacs_btn"><?php echo $msg[ "Learn more" ];?>?</a>
                     </div>
                     <div class="item">
                         <h2 class="codeniacs_sectionHeading">
                             <?php echo $msg[ "Hack Education" ];?>
                         </h2>
-                        <a href="<?php echo $msg[ "URL_wiki" ];?>" class="codeniacs_btn"><?php echo $msg[ "Learn more" ];?>?</a>
+                        <a href="<?php echo $link[ "URL_wiki" ];?>" class="codeniacs_btn"><?php echo $msg[ "Learn more" ];?>?</a>
                     </div>
                     <div class="item">
                         <h2 class="codeniacs_sectionHeading">
                             <?php echo $msg[ "Young ICT entrepreneurs" ];?>
                         </h2>
-                        <a href="<?php echo $msg[ "URL_wiki" ];?>" class="codeniacs_btn"><?php echo $msg[ "Learn more" ];?>?</a>
+                        <a href="<?php echo $link[ "URL_wiki" ];?>" class="codeniacs_btn"><?php echo $msg[ "Learn more" ];?>?</a>
                     </div>
                 </div>
 
@@ -174,7 +175,7 @@ include "locale/" . $locale . "/index.php";
                     </div>
                     <div class="col-md-4 col-sm-4">
                         <div class="item">
-                            <a class="overlay" href="<?php echo $msg[ "URL_wiki" ];?>">
+                            <a class="overlay" href="<?php echo $link[ "URL_wiki" ];?>">
                                 <span class="content">
                                     <i class="mdi mdi-summit codeniacs_icon"></i>
                                     <?php echo $msg[ "Events" ];?>
@@ -211,51 +212,52 @@ include "locale/" . $locale . "/index.php";
             </h2>
             <p class="codeniacs_sectionDesc"><?php echo $msg[ "Programming" ];?>
             </p>
+
             <div class="sectionContent">
                 <div class="fw">
                     <div class="col-md-4 col-sm-6 item ">
                         <div>
-                            <b class="mdi mdi-gamepad codeniacs_icon fsr">&nbsp;Game development</b>
+                            <b class="mdi mdi-gamepad codeniacs_icon fsr">&nbsp;<?php echo $msg[ 'Game development' ];?></b>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 item ">
                         <div>
-                            <b class="mdi mdi-alien codeniacs_icon fsr">&nbsp;Artificial Intelligence</b>
+                            <b class="mdi mdi-web codeniacs_icon fsr">&nbsp;<?php echo $msg[ "Webdesign" ];?></b>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 item ">
                         <div>
-                            <b class="mdi mdi-bitcoin codeniacs_icon fsr">&nbsp;Blockchain</b>
+                            <b class="mdi mdi-application codeniacs_icon fsr">&nbsp;<?php echo $msg[ "App building" ];?></b>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 item ">
                         <div>
-                            <i class="mdi mdi-robot codeniacs_icon fsr">&nbsp;Robots</i>
+                            <i class="mdi mdi-robot codeniacs_icon fsr">&nbsp;<?php echo $msg[ "Robots" ];?></i>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 item ">
                         <div>
-                            <i class="mdi mdi-web codeniacs_icon fsr">&nbsp;Webdesign</i>
+                            <i class="mdi mdi-alien codeniacs_icon fsr">&nbsp;<?php echo $msg[ "Artificial Intelligence" ];?></i>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 item ">
                         <div>
-                            <i class="mdi mdi-application codeniacs_icon fsr">&nbsp;App building</i>
+                            <i class="mdi mdi-bitcoin codeniacs_icon fsr">&nbsp;<?php echo $msg[ "Blockchain" ];?></i>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 item ">
                         <div>
-                            <i class="mdi mdi-brush codeniacs_icon fsr">&nbsp;Graphic Design</i>
+                            <i class="mdi mdi-brush codeniacs_icon fsr">&nbsp;<?php echo $msg[ "Graphic Design" ];?></i>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 item ">
                         <div>
-                            <i class="mdi mdi-domain codeniacs_icon fsr">&nbsp;Business Intelligence</i>
+                            <i class="mdi mdi-domain codeniacs_icon fsr">&nbsp;<?php echo $msg[ "Business Intelligence" ];?></i>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 item ">
                         <div>
-                            <i class="mdi mdi-security codeniacs_icon fsr">&nbsp;Cybersecurity</i>
+                            <i class="mdi mdi-security codeniacs_icon fsr">&nbsp;<?php echo $msg[ "Cybersecurity" ];?></i>
                         </div>
                     </div>
                 </div>
