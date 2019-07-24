@@ -2,137 +2,263 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="322.8px" height="428.16px" viewBox="0 0 322.8 428.16" enable-background="new 0 0 322.8 428.16" xml:space="preserve">
+	 width="384.465px" height="398px" viewBox="-83.8 8 384.465 398" enable-background="new -83.8 8 384.465 398"
+	 xml:space="preserve">
 <g>
 	<g>
-		<path fill="#2BA2DC" d="M300.666,394c0,6.628-5.373,12-12,12H20c-6.627,0-12-5.372-12-12V20c0-6.628,5.373-12,12-12h268.666
-			c6.627,0,12,5.372,12,12V394z"/>
+		<g>
+			<g>
+				<path fill="#2BA2DC" d="M300.666,394c0,6.628-5.373,12-12,12H20c-6.627,0-12-5.372-12-12V20c0-6.628,5.373-12,12-12h268.666
+					c6.627,0,12,5.372,12,12V394z"/>
+			</g>
+		</g>
 	</g>
 </g>
 <g>
 	<g>
 		<g>
-			<circle cx="48.396" cy="95.83" r="26.26"/>
+			<g>
+				<g>
+					<circle cx="48.396" cy="95.83" r="26.26"/>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 38.7314 98.1328)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Game</text>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 38.7314 98.1328)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Game</text>
 </g>
 <g>
 	<g>
 		<g>
-			<circle cx="48.396" cy="164.388" r="26.26"/>
+			<g>
+				<g>
+					<circle cx="48.396" cy="164.388" r="26.26"/>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 35.1416 166.6904)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Website</text>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 35.1416 166.6904)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Website</text>
 </g>
 <g>
 	<g>
 		<g>
-			<circle cx="48.396" cy="232.946" r="26.26"/>
+			<g>
+				<g>
+					<circle cx="48.396" cy="232.946" r="26.26"/>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 41.5283 235.248)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">App</text>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 41.5283 235.248)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">App</text>
 </g>
 <text transform="matrix(1 0 0 1 35.4395 55.0566)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Product</text>
 <g>
 	<g>
 		<g>
-			<circle cx="48.396" cy="370.062" r="26.26"/>
+			<g>
+				<g>
+					<circle cx="48.396" cy="370.062" r="26.26"/>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 45.5088 367.6562)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">IT</text>
+			<text transform="matrix(1 0 0 1 32.5459 377.0723)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Company</text>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 45.5088 367.6562)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">IT</text>
-	<text transform="matrix(1 0 0 1 32.5459 377.0723)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Company</text>
 </g>
 <g>
 	<g>
 		<g>
-			<circle cx="48.396" cy="301.504" r="26.26"/>
+			<g>
+				<g>
+					<circle cx="48.396" cy="301.504" r="26.26"/>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 30.3906 299.0977)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Embedded</text>
+			<text transform="matrix(1 0 0 1 36.9033 308.5137)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">system</text>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 30.3906 299.0977)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Embedded</text>
-	<text transform="matrix(1 0 0 1 36.9033 308.5137)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">system</text>
 </g>
 <text transform="matrix(1 0 0 1 141.5537 55.0566)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Meetup</text>
 <g>
 	<g>
 		<g>
-			<circle fill="#CA79B2" cx="154.333" cy="95.83" r="26.26"/>
+			<g>
+				<g>
+					<circle fill="#CA79B2" cx="154.333" cy="95.83" r="26.26"/>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 144.3271 98.1328)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Demo</text>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 144.3271 98.1328)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Demo</text>
 </g>
 <g>
 	<g>
 		<g>
-			<circle fill="#CA79B2" cx="154.333" cy="164.388" r="26.26"/>
+			<g>
+				<g>
+					<circle fill="#CA79B2" cx="154.333" cy="164.388" r="26.26"/>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 135.9277 166.6904)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Presentatie</text>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 135.9277 166.6904)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Presentatie</text>
 </g>
 <g>
 	<g>
 		<g>
-			<circle fill="#CA79B2" cx="154.333" cy="232.946" r="26.26"/>
+			<g>
+				<g>
+					<circle fill="#CA79B2" cx="154.333" cy="232.946" r="26.26"/>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 137.6182 235.249)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Workshop</text>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 137.6182 235.249)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Workshop</text>
 </g>
 <g>
 	<g>
 		<g>
-			<circle fill="#CA79B2" cx="154.333" cy="301.504" r="26.26"/>
+			<g>
+				<g>
+					<circle fill="#CA79B2" cx="154.333" cy="301.504" r="26.26"/>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 139.5449 303.8066)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Expositie</text>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 139.5449 303.8066)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Expositie</text>
 </g>
 <g>
 	<g>
 		<g>
-			<circle fill="#CA79B2" cx="154.333" cy="370.062" r="26.26"/>
+			<g>
+				<g>
+					<circle fill="#CA79B2" cx="154.333" cy="370.062" r="26.26"/>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 145.2412 372.3643)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Beurs</text>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 145.2412 372.3643)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Beurs</text>
 </g>
 <text transform="matrix(1 0 0 1 249.6362 55.0566)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Artikel</text>
 <g>
 	<g>
 		<g>
-			<circle fill="#CA79B2" cx="260.271" cy="95.83" r="26.26"/>
+			<g>
+				<g>
+					<circle fill="#CA79B2" cx="260.271" cy="95.83" r="26.26"/>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 239.7163 98.1328)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Social Media</text>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 239.7163 98.1328)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Social Media</text>
 </g>
 <g>
 	<g>
 		<g>
-			<circle fill="#CA79B2" cx="260.271" cy="164.388" r="26.26"/>
+			<g>
+				<g>
+					<circle fill="#CA79B2" cx="260.271" cy="164.388" r="26.26"/>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 244.3999 166.6904)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Magazine</text>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 244.3999 166.6904)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Magazine</text>
 </g>
 <g>
 	<g>
 		<g>
-			<circle fill="#CA79B2" cx="260.271" cy="232.946" r="26.26"/>
+			<g>
+				<g>
+					<circle fill="#CA79B2" cx="260.271" cy="232.946" r="26.26"/>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 238.4253 235.249)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Encyclopedie</text>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 238.4253 235.249)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Encyclopedie</text>
 </g>
 <g>
 	<g>
 		<g>
-			<circle fill="#CA79B2" cx="260.271" cy="301.504" r="26.26"/>
+			<g>
+				<g>
+					<circle fill="#CA79B2" cx="260.271" cy="301.504" r="26.26"/>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 253.3804 303.8066)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Pers</text>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 253.3804 303.8066)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Pers</text>
 </g>
 <g>
 	<g>
 		<g>
-			<circle fill="#CA79B2" cx="260.271" cy="370.062" r="26.26"/>
+			<g>
+				<g>
+					<circle fill="#CA79B2" cx="260.271" cy="370.062" r="26.26"/>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 251.8511 372.3643)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Klant</text>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 251.8511 372.3643)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="7.8469">Klant</text>
 </g>
 <text transform="matrix(1 0 0 1 119.3252 30.5078)" font-family="'MyriadPro-Regular'" font-size="19.4538">Portfolio</text>
+<g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<circle fill="#2BA2DC" cx="-57.54" cy="95.83" r="26.26"/>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 -63.6958 102.874)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="24">1</text>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 -68.9453 55.0566)" fill="#2BA2DC" font-family="'MyriadPro-Regular'" font-size="7.8469">Niveau</text>
+<g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<circle fill="#2BA2DC" cx="-57.54" cy="164.388" r="26.26"/>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 -63.6958 171.4321)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="24">2</text>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<circle fill="#2BA2DC" cx="-57.54" cy="235.248" r="26.26"/>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 -63.6958 242.292)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="24">3</text>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<circle fill="#2BA2DC" cx="-57.54" cy="303.807" r="26.26"/>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 -63.6958 310.8496)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="24">4</text>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<circle fill="#2BA2DC" cx="-57.54" cy="370.062" r="26.26"/>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 -63.6958 377.1055)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="24">5</text>
+		</g>
+	</g>
+</g>
 </svg>
