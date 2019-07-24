@@ -356,7 +356,7 @@ include "locale/" . $locale . "/link.php";
                             <div class="content">
                                 <i class="mdi mdi-flower codeniacs_icon"></i>
                                 <h4 class="title">Groninger Forum</h4>
-                                <span class="desc">Sponsor</span>
+                                <span class="desc">Pilot Artificial Intelligence</span>
                             </div>
                         </div>
                     </a>
