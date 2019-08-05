@@ -301,6 +301,27 @@ include "locale/" . $locale . "/link.php";
                     </div>
                 </div>
             </div>
+            <h2 class="codeniacs_sectionHeading">
+                <span class="codeniacs_subHeading">&nbsp;</span>
+                <span class="codeniacs_subHeading"><?php echo $msg[ "and" ];?></span>
+                <?php echo $msg[ "Agile" ];?>
+            </h2>
+            <div class="sectionContent">
+                <div class="col-md-4 col-sm-4">
+                    <div class="item">
+                        <a class="overlay">
+                            <img src="images/agile/product_<?php if ( $locale === "nl_NL.utf8" ) { echo "nl"; } else { echo "en"; } ?>.svg" alt="product">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-8">
+                    <div class="item">
+                        <a class="overlay">
+                            <img src="images/agile/scrum_<?php if ( $locale === "nl_NL.utf8" ) { echo "nl"; } else { echo "en"; } ?>.svg" width="620px" alt="scrum">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
