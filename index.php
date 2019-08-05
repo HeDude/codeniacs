@@ -217,17 +217,17 @@ include "locale/" . $locale . "/link.php";
                 <div class="fw">
                     <div class="col-md-4 col-sm-6 item ">
                         <div>
-                            <b class="mdi mdi-gamepad codeniacs_icon fsr">&nbsp;<?php echo $msg[ 'Game development' ];?></b>
+                            <b class="mdi mdi-gamepad codeniacs_icon fsr">&nbsp;<?php echo $msg[ 'Game' ];?></b>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 item ">
                         <div>
-                            <b class="mdi mdi-web codeniacs_icon fsr">&nbsp;<?php echo $msg[ "Webdesign" ];?></b>
+                            <b class="mdi mdi-web codeniacs_icon fsr">&nbsp;<?php echo $msg[ "Website" ];?></b>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 item ">
                         <div>
-                            <b class="mdi mdi-application codeniacs_icon fsr">&nbsp;<?php echo $msg[ "App building" ];?></b>
+                            <b class="mdi mdi-application codeniacs_icon fsr">&nbsp;<?php echo $msg[ "App" ];?></b>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 item ">
