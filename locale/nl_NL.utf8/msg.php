@@ -2,7 +2,7 @@
 $msg = array
 (
     "21st century skills" => "21st century skills",
-    "Agile" => "en in enkele sprints naar een Minimum Viable Product",
+    "Agile" => "in enkele sprints naar een Minimum Viable Product",
     "and" => "en",
     "App" => "App",
     "Artificial Intelligence" => "Kunstmatige intelligentie",
