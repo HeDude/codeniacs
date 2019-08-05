@@ -232,6 +232,21 @@ include "locale/" . $locale . "/link.php";
                     </div>
                     <div class="col-md-4 col-sm-6 item ">
                         <div>
+                            <b class="mdi mdi-fridge-filled codeniacs_icon fsr">&nbsp;<?php echo $msg[ 'Embedded system' ];?></b>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 item ">
+                        <div>
+                            <b class="mdi mdi-keyboard codeniacs_icon fsr">&nbsp;<?php echo $msg[ "IT-company" ];?></b>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 item ">
+                        <div>
+                            <b class="mdi mdi-fast-forward codeniacs_icon fsr">&nbsp;</b>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 item ">
+                        <div>
                             <i class="mdi mdi-robot codeniacs_icon fsr">&nbsp;<?php echo $msg[ "Robots" ];?></i>
                         </div>
                     </div>
