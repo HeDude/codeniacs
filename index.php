@@ -304,8 +304,10 @@ include "locale/" . $locale . "/link.php";
             <h2 class="codeniacs_sectionHeading">
                 <span class="codeniacs_subHeading">&nbsp;</span>
                 <span class="codeniacs_subHeading"><?php echo $msg[ "and" ];?></span>
-                <?php echo $msg[ "Agile" ];?>
+                <?php echo $msg[ "MVP" ];?>
             </h2>
+            <p class="codeniacs_sectionDesc"><?php echo $msg[ "Agile" ];?>
+            </p>
             <div class="sectionContent">
                 <div class="col-md-4 col-sm-4">
                     <div class="item">

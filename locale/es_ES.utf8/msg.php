@@ -2,7 +2,7 @@
 $msg = array
 (
     "21st century skills" => "21st century skills",
-    "Agile" => "en unos pocos sprints a un producto mínimo viable",
+    "Agile" => "Los alumnos y los profesores desarrollan de manera independiente sus habilidades y productos en coordinación continua entre ellos por períodos cortos y claramente organizados. Este método ágil encaja bien con el aprendizaje empresarial y la forma moderna de desarrollo de software.",
     "and" => "y",
     "App" => "App",
     "Artificial Intelligence" => "Inteligencia artificial",
@@ -25,6 +25,7 @@ $msg = array
     "Learn more" => "Aprende más",
     "Meaningful events" => "Eventos significativos",
     "Modern Techniques" => "Técnicas modernas",
+    "MVP" => "en unos pocos sprints a un producto mínimo viable",
     "Online 24/7 support" => "Soporte en línea 24/7",
     "Open map" => "Abrir carpeta",
     "Our partners" => "Nuestros socios",
