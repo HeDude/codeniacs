@@ -20,6 +20,7 @@ $msg = array
     "Game" => "Game",
     "Graphic Design" => "Diseño gráfico",
     "Hack Education" => "Hackear la Educación",
+    "Hacking" => "Codeniacs invita a los participantes a hackear éticamente tanto la informática como la educación. Esto fomenta el compromiso, la curiosidad y el espíritu empresarial necesarios para aplicar lo que se aprende de manera más creativa de lo que se pretendía originalmente. La calidad del hack sirve para determinar las competencias adquiridas.",
     "How" => "Cómo",
     "IT-company" => "Empresa de TI",
     "Learn more" => "Aprende más",

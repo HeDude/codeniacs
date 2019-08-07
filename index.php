@@ -195,6 +195,8 @@ include "locale/" . $locale . "/link.php";
                 <span class="codeniacs_subHeading"><?php echo $msg[ "Entrepreneurial behavior" ];?></span>
                 <?php echo $msg[ "21st century skills" ];?>
             </h2>
+            <p class="codeniacs_sectionDesc"><?php echo $msg[ "Hacking" ];?>
+            </p>
             <div class="sectionContent">
                 <div class="codeniacs_devices">
                     <img class="tablet" src="images/why/<?php if ( $locale === "nl_NL.utf8" ) { echo "Kaart_21st_century_skills"; } else { echo "Map_21st century skills_EN"; } ?>.png" alt="21st century skills">
