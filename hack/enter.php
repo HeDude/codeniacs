@@ -27,7 +27,7 @@
         }
         ?>
 
-        <form name="input" action="Login.php" method="get">
+        <form name="input" action="login.php" method="get">
             <input type="submit" value="Home">
         </form>
     </body>
