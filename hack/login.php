@@ -7,7 +7,7 @@
     <form action="enter.php" method = "put" >
         <label for = "username" >Username</label> <input type = "username" id="usename" name="username"><br /><br />
         <label for = "password" >Password:</label> <input type = "text" id="password" name="password"><br /><br />
-        <input type = "hidden" id="page" name="page">
+        <input type = "hidden" id="page" name="page" value="enter.php">
         <button type = "submit" >Login</button>
     </form>
 </html>
