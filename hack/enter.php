@@ -10,12 +10,12 @@
             $passwords[ $lines[ $i ] ] = $lines[ $i + 1 ];
         }
 
-        $username = htmlspecialchars( $_POST['username'] );
+        $username = htmlspecialchars( $_GET['username'] );
         if
         (
             array_key_exists( $username, $passwords )
             &&
-            $passwords[ $username ] == $_POST['password']
+            $passwords[ $username ] == $_GET['password']
         )
         {
             echo "je hebt me gehackt";
@@ -27,7 +27,7 @@
         }
         ?>
 
-        <form name="input" action="index.php" method="get">
+        <form name="input" action="Login.php" method="get">
             <input type="submit" value="Home">
         </form>
     </body>
