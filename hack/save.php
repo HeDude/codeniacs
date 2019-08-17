@@ -1,5 +1,5 @@
 <?php
-if ( !defined( 'JE_MAG_DIT_LEZEN' ) )
+if ( !defined( 'JE_MAG_DIT_UITVOEREN' ) )
 {
     echo "Je mag dit NIET uitvoeren!";
     exit;
