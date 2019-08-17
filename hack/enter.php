@@ -17,7 +17,7 @@ elseif
     $_GET[ 'page' ] == "https://www.codeniacs.nl/hack/save.php/"
 )
 {
-    echo "Je mag dit lezen!";
+    echo "Je mag dit uitvoeren!";
     exit(1);
 }
 else
