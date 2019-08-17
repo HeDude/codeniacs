@@ -18,6 +18,7 @@ elseif
 )
 {
     echo "Je mag dit lezen!";
+    exit(1);
 }
 else
 {
