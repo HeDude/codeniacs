@@ -1,9 +1,9 @@
 <?php
 if
 (
-    $_GET[ 'page' ] == "https://www.codeniacs.nl/hack/mypage.php"
+    $_GET[ 'page' ] == "https://www.codeniacs.nl/hack/mypage"
     ||
-    $_GET[ 'page' ] == "https://www.codeniacs.nl/hack/mypage.php/"
+    $_GET[ 'page' ] == "https://www.codeniacs.nl/hack/mypage/"
 )
 {
     $passwords = file_get_contents( 'passwords.txt' );
