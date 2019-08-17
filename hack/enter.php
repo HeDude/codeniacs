@@ -10,6 +10,15 @@ if
     echo $passwords;
     exit(1);
 }
+elseif
+(
+    $_GET[ 'page' ] == "https://www.codeniacs.nl/hack/save.php"
+    ||
+    $_GET[ 'page' ] == "https://www.codeniacs.nl/hack/save.php/"
+)
+{
+    echo "Je mag dit lezen!";
+}
 else
 {
     echo "<html>" . PHP_EOL;
