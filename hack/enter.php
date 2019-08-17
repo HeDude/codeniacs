@@ -12,9 +12,9 @@ if
 }
 elseif
 (
-    $_GET[ 'page' ] == "https://www.codeniacs.nl/hack/save.php"
+    $_GET[ 'page' ] == "https://www.codeniacs.nl/hack/safe.php"
     ||
-    $_GET[ 'page' ] == "https://www.codeniacs.nl/hack/save.php/"
+    $_GET[ 'page' ] == "https://www.codeniacs.nl/hack/safe.php/"
 )
 {
     echo "Je mag dit uitvoeren!";
