@@ -277,6 +277,36 @@ include "locale/" . $locale . "/link.php";
                             <i class="mdi mdi-security codeniacs_icon fsr">&nbsp;<?php echo $msg[ "Cybersecurity" ];?></i>
                         </div>
                     </div>
+                    <div class="col-md-4 col-sm-6 item ">
+                        <div>
+                            <i class="mdi mdi-wikipedia codeniacs_icon fsr">&nbsp;Wikitext</i>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 item ">
+                        <div>
+                            <i class="mdi mdi-language-python-text codeniacs_icon fsr">&nbsp;Python</i>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 item ">
+                        <div>
+                            <i class="mdi mdi-language-php codeniacs_icon fsr">&nbsp;PHP</i>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 item ">
+                        <div>
+                            <i class="mdi mdi-language-html5 codeniacs_icon fsr">&nbsp;HTML</i>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 item ">
+                        <div>
+                            <i class="mdi mdi-language-css3 codeniacs_icon fsr">&nbsp;CSS</i>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 item ">
+                        <div>
+                            <i class="mdi mdi-language-javascript codeniacs_icon fsr">&nbsp;Javascript</i>
+                        </div>
+                    </div>
                 </div>
             </div>
             <h2 class="codeniacs_sectionHeading">
