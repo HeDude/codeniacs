@@ -1,7 +1,7 @@
 <?php
 $msg = array
 (
-    "21st century skills" => "21st century skills",
+    "21st century skills" => "Life and 21st century skills",
     "Agile" => "The pupils and teachers develop their skills and products in continuous coordination with each other for short, clearly arranged periods. This Agile method fits well with entrepreneurial learning and the modern way of software development.",
     "and" => "and",
     "App" => "App",
@@ -20,7 +20,7 @@ $msg = array
     "Game" => "Game",
     "Graphic Design" => "Graphic Design",
     "Hack Education" => "Hack Education",
-    "Hacking" => "Codeniacs invites participants to ethically hack both IT and education. This encourages the commitment, curiosity and entrepreneurship needed to apply what is learned more creatively than originally intended. Applying requires collaboration, thinking, participating, solving, creating and communicating. The quality of the hack serves to determine the acquired competences.",
+    "Hacking" => "Codeniacs invites participants to ethically hack both IT and education, if this means an improvement in happiness in life. This encourages the commitment, curiosity and entrepreneurship needed to apply what is learned more creatively than originally intended. Applying requires collaboration, thinking, participating, solving, creating and communicating. The quality of the hack serves to determine the acquired competences.",
     "How" => "How",
     "IT-company" => "IT-company",
     "Learn more" => "Learn more",
