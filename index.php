@@ -299,7 +299,7 @@ include "locale/" . $locale . "/link.php";
                     </div>
                     <div class="col-md-4 col-sm-6 item ">
                         <div>
-                            <i class="mdi mdi-language-css3 codeniacs_icon fsr">&nbsp;CSS</i>
+                            <i class="mdi mdi-sass codeniacs_icon fsr">&nbsp;SCSS</i>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 item ">
