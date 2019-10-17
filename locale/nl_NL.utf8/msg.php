@@ -30,7 +30,7 @@ $msg = array
     "Open map" => "Open kaart",
     "Our partners" => "Onze partners",
     "Our promise to education is" => "Onze belofte aan het onderwijs is",
-    "Programming" => "De <a href='https://elo.codeniacs.nl'>cursussen</a> verdiepen ICT disciplines die nu en in de toekomst belangrijk zijn. Leerlingen gaan binnen zo'n discipline aan de slag met aansprekende uitdagingen. Aldoende <a href='https://code.codeniacs.nl'>programmeren</a> de leerlingen in Scratch, Blockly, Wikitext, HTML, CSS, Javascript en uiteindelijk zelfs in TypeScript, C#, PHP, Python en Unity. Open source software als Git, ATOM, Blender, GIMP en Inkscape wordt ingezet.",
+    "Programming" => "De <a href='https://elo.codeniacs.nl'>cursussen</a> verdiepen ICT disciplines die in de toekomst belangrijk zijn. Leerlingen gaan binnen zo'n discipline aansprekende uitdagingen aan. Aldoende <a href='https://code.codeniacs.nl'>programmeren</a> de leerlingen in Scratch, Blockly, Wikitext, HTML, CSS, Javascript en uiteindelijk zelfs in TypeScript, C#, PHP, Python en Unity. Open source software als Git, ATOM, Blender, GIMP en Inkscape wordt ingezet.",
     "Robots" => "Robots",
     "Setup Codeniacs" => "Codeniacs is zo opgezet dat docenten en scholen worden ontlast qua programma en inzet. Via een <a href='https://elo.codeniacs.nl'>online leeromgeving</a>, onderwijsadviseurs, gastdocenten en evenementen wordt alle deskundigheid GRATIS geleverd. De school gaat wel een commitment aan en zorgt voor de juiste middelen. Op deze wijze kan een school eenvoudig en duurzaam ondernemend leren door ICT in- en uitvoeren.",
     "Sign up" => "Schrijf u in",
