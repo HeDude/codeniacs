@@ -294,7 +294,7 @@ include "locale/" . $locale . "/link.php";
                     </div>
                     <div class="col-md-4 col-sm-6 item ">
                         <div>
-                            <i class="mdi mdi-language-html5 codeniacs_icon fsr">&nbsp;HTML</i>
+                            <i class="mdi mdi-language-html5 codeniacs_icon fsr">&nbsp;XHTML</i>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 item ">
