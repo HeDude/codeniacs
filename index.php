@@ -61,7 +61,7 @@ include "locale/" . $locale . "/link.php";
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"><img class="logo_codeniacs" src="images/logo.png"></a>
+                        <a class="navbar-brand" href="#"><img class="logo_codeniacs" src="images/logo.png" alt="logo Codeniacs"></a>
                     </div>
 
                     <div class="codeniacs_menuItem pull-right">
@@ -80,11 +80,11 @@ include "locale/" . $locale . "/link.php";
             </nav>
 
             <div>
-                <ul class="codeniacsLinksGroup">
-                    <a href="?lang=en_GB.utf8"><img class="cd_flag" src="images/ico/gb.svg"></a>
-                    <a href="?lang=nl_NL.utf8"><img class="cd_flag" src="images/ico/nl.svg"></a>
-                    <a href="?lang=es_ES.utf8"><img class="cd_flag" src="images/ico/es.svg"></a>
-                </ul>
+                <div class="codeniacsLinksGroup">
+                    <a href="?lang=en_GB.utf8"><img class="cd_flag" src="images/ico/gb.svg" alt="GB"></a>
+                    <a href="?lang=nl_NL.utf8"><img class="cd_flag" src="images/ico/nl.svg" alt="NL"></a>
+                    <a href="?lang=es_ES.utf8"><img class="cd_flag" src="images/ico/es.svg" alt="ES"></a>
+                <div>
             </div>
 
             <section id="codeniacs_slider" class="carousel slide container" data-ride="carousel">
@@ -351,7 +351,7 @@ include "locale/" . $locale . "/link.php";
                 <div class="col-md-8 col-sm-8">
                     <div class="item">
                         <a class="overlay">
-                            <img src="images/agile/scrum_<?php if ( $locale === "nl_NL.utf8" ) { echo "nl"; } else { echo "en"; } ?>.svg" width="620px" alt="scrum">
+                            <img src="images/agile/scrum_<?php if ( $locale === "nl_NL.utf8" ) { echo "nl"; } else { echo "en"; } ?>.svg" width="620" alt="scrum">
                         </a>
                     </div>
                 </div>
@@ -463,7 +463,7 @@ include "locale/" . $locale . "/link.php";
                         <a href="https://twitter.com/codeniacs" target="_blank" class="codeniacs_icon"><i class="mdi mdi-twitter"></i></a>
                         <a href="https://www.linkedin.com/company/codeniacs/" target="_blank" class="codeniacs_icon"><i class="mdi mdi-linkedin"></i></a>
                         <span class="text"></span>
-                        <a href="https://github.com/Codeniacs" target="_blank" class="codeniacs_icon"><img src="images/github_logo.png"></a>
+                        <a href="https://github.com/Codeniacs" target="_blank" class="codeniacs_icon"><img src="images/github_logo.png" alt="Github Logo"></a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
@@ -484,16 +484,16 @@ include "locale/" . $locale . "/link.php";
 
     <a href="#" id="codeniacs_scrollToTop">Naar de Top</a>
 
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
-    <script type="text/javascript" src="js/modernizr.custom.97074.js"></script>
-<!--    <script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/modernizr.custom.97074.js"></script>
+<!--    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js" integrity="sha256-/YAntTqXy9V4LoXFkI5WPDl3ZwP/knn1BljmMJJ7QWc=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/unslider-min.js"></script>
-    <script type="text/javascript" src="js/template.js"></script>
+    <script src="js/unslider-min.js"></script>
+    <script src="js/template.js"></script>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
