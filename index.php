@@ -84,7 +84,7 @@ include "locale/" . $locale . "/link.php";
                     <a href="?lang=en_GB.utf8"><img class="cd_flag" src="images/ico/gb.svg" alt="GB"></a>
                     <a href="?lang=nl_NL.utf8"><img class="cd_flag" src="images/ico/nl.svg" alt="NL"></a>
                     <a href="?lang=es_ES.utf8"><img class="cd_flag" src="images/ico/es.svg" alt="ES"></a>
-                <div>
+                </div>
             </div>
 
             <section id="codeniacs_slider" class="carousel slide container" data-ride="carousel">
