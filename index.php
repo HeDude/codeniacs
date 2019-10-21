@@ -41,7 +41,7 @@ include "locale/" . $locale . "/link.php";
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css" />
+<!--    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css" />-->
     <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" />
     <link rel="stylesheet" type="text/css" href="css/unslider.css" />
     <link rel="stylesheet" type="text/css" href="css/template.css" />
@@ -490,7 +490,8 @@ include "locale/" . $locale . "/link.php";
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
     <script type="text/javascript" src="js/modernizr.custom.97074.js"></script>
-    <script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<!--    <script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js" integrity="sha256-/YAntTqXy9V4LoXFkI5WPDl3ZwP/knn1BljmMJJ7QWc=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/unslider-min.js"></script>
     <script type="text/javascript" src="js/template.js"></script>
 
