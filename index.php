@@ -264,7 +264,7 @@ include "locale/" . $locale . "/link.php";
                     </div>
                     <div class="col-md-4 col-sm-6 item ">
                         <div>
-                            <i class="mdi mdi-brush codeniacs_icon fsr">&nbsp;<?php echo $msg[ "Graphic Design" ];?></i>
+                            <i class="mdi mdi-brush codeniacs_icon fsr">&nbsp;<?php echo $msg[ "Computer-aided Design" ];?></i>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 item ">
