@@ -249,7 +249,7 @@ include "locale/" . $locale . "/link.php";
                     </div>
                     <div class="col-md-4 col-sm-6 item ">
                         <div>
-                            <i class="mdi mdi-robot codeniacs_icon fsr">&nbsp;<?php echo $msg[ "Robots" ];?></i>
+                            <i class="mdi mdi-robot codeniacs_icon fsr">&nbsp;<?php echo $msg[ "Robotics" ];?></i>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 item ">
