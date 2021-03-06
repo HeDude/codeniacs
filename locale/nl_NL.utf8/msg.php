@@ -23,6 +23,9 @@ $msg = array
     "How" => "Hoe",
     "IT-company" => "IT-bedrijf",
     "Learn more" => "Meer weten",
+    "Learning by play and learning games" => "Speels leren en leergames",
+    "Learning by Research and Design" => "Onderzoekend en ontwerpend leren",
+    "Learning game" => "in enkele sprints naar een eigen leergame",
     "Meaningful events" => "Betekenisvolle evenementen",
     "Modern Techniques" => "Moderne Technieken",
     "MVP" => "in enkele sprints naar een Minimum Viable Product",
@@ -33,6 +36,7 @@ $msg = array
     "Programming" => "De <a href='https://elo.codeniacs.nl'>cursussen</a> verdiepen ICT disciplines die in de toekomst belangrijk zijn. Leerlingen gaan binnen zo'n discipline aansprekende uitdagingen aan. Aldoende <a href='https://code.codeniacs.nl'>programmeren</a> de leerlingen in Scratch, Blockly, Wikitext, HTML, CSS, Javascript en uiteindelijk in TypeScript, Sass, XHTML, C#, PHP, Python en Unity. Open source software als Git, ATOM, Blender, GIMP en Inkscape wordt ingezet.",
     "Robotics" => "Robotica",
     "Setup Codeniacs" => "Codeniacs is zo opgezet dat docenten en scholen worden ontlast qua programma en inzet. Via een <a href='https://elo.codeniacs.nl'>online leeromgeving</a>, onderwijsadviseurs, gastdocenten en evenementen wordt alle deskundigheid GRATIS geleverd. De school gaat wel een commitment aan en zorgt voor de juiste middelen. Op deze wijze kan een school eenvoudig en duurzaam ondernemend leren door ICT in- en uitvoeren.",
+    "Science and technology" => "Wetenschap en Technologie",
     "Sign up" => "Schrijf u in",
     "together form a unique crazy quilt" => "vormen samen een unieke lappendeken",
     "URL_vle" => "https://elo.codeniacs.nl",
@@ -40,7 +44,8 @@ $msg = array
     "We work with" => "We werken met",
     "Website" => "Website",
     "What" => "Wat",
-    "Why" => "Waarom",
+    "Where" => "Waar",
     "Who" => "Wie",
+    "Why" => "Waarom",
     "Young ICT entrepreneurs" => "Jonge ICT ondernemers"
 );
