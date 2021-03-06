@@ -103,13 +103,13 @@ include "locale/" . $locale . "/link.php";
                     </div>
                     <div class="item">
                         <h2 class="codeniacs_sectionHeading">
-                            <?php echo $msg[ "Hack Education" ];?>
+                            <?php echo $msg[ "Learning by play and learning games" ];?>
                         </h2>
                         <a href="<?php echo $link[ "URL_wiki" ];?>" class="codeniacs_btn"><?php echo $msg[ "Learn more" ];?>?</a>
                     </div>
                     <div class="item">
                         <h2 class="codeniacs_sectionHeading">
-                            <?php echo $msg[ "Young ICT entrepreneurs" ];?>
+                            <?php echo $msg[ "Science and technology" ];?>
                         </h2>
                         <a href="<?php echo $link[ "URL_wiki" ];?>" class="codeniacs_btn"><?php echo $msg[ "Learn more" ];?>?</a>
                     </div>
@@ -133,7 +133,7 @@ include "locale/" . $locale . "/link.php";
                     </li>
                     <li data-target="#codeniacs_slider" data-slide-to="3">
                         <div class="inner">
-                            <span class="number">04</span> <?php echo $msg[ "Who" ];?>?
+                            <span class="number">04</span> <?php echo $msg[ "Where" ];?>?
                         </div>
                     </li>
                 </ol>
@@ -192,7 +192,7 @@ include "locale/" . $locale . "/link.php";
     <section id="codeniacs_why">
         <div class="container">
             <h2 class="codeniacs_sectionHeading">
-                <span class="codeniacs_subHeading"><?php echo $msg[ "Entrepreneurial behavior" ];?></span>
+                <span class="codeniacs_subHeading"><?php echo $msg[ "Learning by Research and Design" ];?></span>
                 <?php echo $msg[ "21st century skills" ];?>
             </h2>
             <p class="codeniacs_sectionDesc"><?php echo $msg[ "Hacking" ];?>
@@ -336,7 +336,7 @@ include "locale/" . $locale . "/link.php";
             <h2 class="codeniacs_sectionHeading">
                 <span class="codeniacs_subHeading">&nbsp;</span>
                 <span class="codeniacs_subHeading"><?php echo $msg[ "and" ];?></span>
-                <?php echo $msg[ "MVP" ];?>
+                <?php echo $msg[ "Learning game" ];?>
             </h2>
             <p class="codeniacs_sectionDesc"><?php echo $msg[ "Agile" ];?>
             </p>
