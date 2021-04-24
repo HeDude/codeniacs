@@ -3,6 +3,7 @@ $msg = array
 (
     "21st century skills" => "levensvaardigheden en 21st century skills",
     "Agile" => "De leerlingen en docenten ontwikkelen gedurende korte overzichtelijke perioden zelfstandig hun vaardigheden en producten in continue afstemming met elkaar. Deze Agile werkwijze past goed bij ondernemend leren en de moderne manier van software-ontwikkeling.",
+    "an education achitect and an education technologist" => "een onderwijsarchitect en een onderewijstechnoloog",
     "and" => "en",
     "App" => "App",
     "Artificial Intelligence" => "Kunstmatige intelligentie",
@@ -39,7 +40,6 @@ $msg = array
     "Setup Codeniacs" => "Codeniacs is zo opgezet dat docenten en scholen worden ontlast qua programma en inzet. Via een <a href='https://elo.codeniacs.nl'>online leeromgeving</a>, onderwijsadviseurs, gastdocenten en evenementen wordt alle deskundigheid GRATIS geleverd. De school gaat wel een commitment aan en zorgt voor de juiste middelen. Op deze wijze kan een school eenvoudig en duurzaam ondernemend leren door ICT in- en uitvoeren.",
     "Science and technology" => "Wetenschap en Technologie",
     "Sign up" => "Schrijf u in",
-    "together form a unique crazy quilt" => "vormen samen een unieke lappendeken",
     "URL_vle" => "https://elo.codeniacs.nl",
     "URL_wiki" => "https://wiki.codeniacs.nl",
     "We work with" => "We werken met",
