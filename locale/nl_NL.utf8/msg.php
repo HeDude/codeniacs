@@ -7,6 +7,7 @@ $msg = array
     "App" => "App",
     "Artificial Intelligence" => "Kunstmatige intelligentie",
     "Blockchain" => "Blockchain",
+    "Brotherhood" => "Een unieke broederschap tussen",
     "Business Intelligence" => "Business Intelligence",
     "Close map" => "Sluit map",
     "Codeniacs description" => "Codeniacs is opgezet met pilotscholen door deskundigen in ondernemend leren en ICT.<br/>Deze inspanning is mogeljk gemaakt door onze partners.",
