@@ -3,6 +3,7 @@ $msg = array
 (
     "21st century skills" => "Lief y habilidades del siglo XXI",
     "Agile" => "Los alumnos y los profesores desarrollan de manera independiente sus habilidades y productos en coordinación continua entre ellos por períodos cortos y claramente organizados. Este método ágil encaja bien con el aprendizaje empresarial y la forma moderna de desarrollo de software.",
+    "an education achitect and an education technologist" => "un experto en educación y un tecnólogo en educación",
     "and" => "y",
     "App" => "App",
     "Artificial Intelligence" => "Inteligencia artificial",
@@ -39,7 +40,6 @@ $msg = array
     "Setup Codeniacs" => "Codeniacs está diseñado de tal manera que los maestros y las escuelas se sienten aliviados en términos de programa, recursos y compromiso. A través de un entorno de aprendizaje en línea, asesores educativos, conferenciantes invitados y eventos, todos los conocimientos se entregan de forma GRATUITA. Sin embargo, la escuela sí hace un compromiso. De esta manera, una escuela puede aprender y ejecutar de manera simple y sostenible el aprendizaje empresarial a través de las TIC.",
     "Science and technology" => "Ciencia y Tecnología",
     "Sign up" => "Registrarse",
-    "together form a unique crazy quilt" => "juntos forman un mosaico único",
     "URL_wiki" => "https://wiki.codeniacs.eu",
     "We work with" => "Trabajamos con",
     "Website" => "Website",
