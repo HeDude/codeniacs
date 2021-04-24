@@ -3,7 +3,7 @@ $msg = array
 (
     "21st century skills" => "levensvaardigheden en 21st century skills",
     "Agile" => "De leerlingen en docenten ontwikkelen gedurende korte overzichtelijke perioden zelfstandig hun vaardigheden en producten in continue afstemming met elkaar. Deze Agile werkwijze past goed bij ondernemend leren en de moderne manier van software-ontwikkeling.",
-    "an education achitect and an education technologist" => "een onderwijsarchitect en een onderewijstechnoloog",
+    "an education achitect and an education technologist" => "een onderwijsarchitect en een onderwijstechnoloog",
     "and" => "en",
     "App" => "App",
     "Artificial Intelligence" => "Kunstmatige intelligentie",
