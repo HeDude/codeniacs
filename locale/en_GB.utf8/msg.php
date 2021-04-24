@@ -3,6 +3,7 @@ $msg = array
 (
     "21st century skills" => "Life and 21st century skills",
     "Agile" => "The pupils and teachers develop their skills and products in continuous coordination with each other for short, clearly arranged periods. This Agile method fits well with entrepreneurial learning and the modern way of software development.",
+    "an education achitect and an education technologist" => "an education achitect and an education technologist",
     "and" => "and",
     "App" => "App",
     "Artificial Intelligence" => "Artificial Intelligence",
@@ -39,7 +40,6 @@ $msg = array
     "Setup Codeniacs" => "Codeniacs is designed in such a way that teachers and schools are relieved in terms of program and commitment. Through an online learning environment, educational advisers, guest lecturers and events, all expertise is delivered for FREE. The school does make a commitment though and delivers the right means. In this way, a school can learn and execute in a simple and sustainable manner entrepreneurial learning through ICT.",
     "Science and technology" => "Science and technology",
     "Sign up" => "Sign up",
-    "together form a unique crazy quilt" => "together form a unique crazy quilt",
     "We work with" => "We work with",
     "Website" => "Website",
     "What" => "What",
