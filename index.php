@@ -362,8 +362,8 @@ include "locale/" . $locale . "/link.php";
     <section id="codeniacs_who">
         <div class="container">
             <h2 class="codeniacs_sectionHeading">
-                <span class="codeniacs_subHeading"><?php echo $msg[ "Our partners" ];?></span>
-                <?php echo $msg[ "together form a unique crazy quilt" ];?>
+                <span class="codeniacs_subHeading"><?php echo $msg[ "Brotherhood" ];?></span>
+                <?php echo $msg[ "an education achitect and an education technologist" ];?>
             </h2>
             <p class="codeniacs_sectionDesc">
                 <?php echo $msg[ "Codeniacs description" ];?>
